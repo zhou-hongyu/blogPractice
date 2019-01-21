@@ -12,3 +12,14 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+Rails.application.config.assets.precompile += %w( tiekang.css )
+Rails.application.config.assets.precompile += %w( font-awesome.min.css )
+Rails.application.config.assets.precompile += %w( flickerplate.css )
+Rails.application.config.assets.precompile += %w( style.css )
+Rails.application.config.assets.precompile += %w( flickerplate.min.js )
+Rails.application.config.assets.precompile += %w( gbook.js )
+Rails.application.config.assets.precompile += %w( ckplayer.js )
+Rails.application.config.assets.precompile += %w( owl.carousel.js )
+# Rails.application.config.assets.precompile += %w( search.js )
+
+
