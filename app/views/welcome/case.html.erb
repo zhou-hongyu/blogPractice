@@ -69,17 +69,17 @@
       </div>
       <ul class="zt">
         <li class="active"><a href="/">Home</a></li>
-        <li><%= link_to "Company", controller: "welcome", action: "company" %></li>
+        <li><a href="/Company/">Company</a></li>
         <li>
-          <%= link_to "Products", controller: "welcome", action: "products" %><i class="fa fa-angle-down"></i>
+          <a href="/Products/">Products</a><i class="fa fa-angle-down"></i>
           <div class="xla">
             <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
           </div>
         </li>
-        <li><%= link_to "News", controller: "welcome", action: "news" %></li>
-        <li><%= link_to "Factory", controller: "welcome", action: "factory" %></li>
-        <li><%= link_to "Case", controller: "welcome", action: "case" %></li>
-        <li><%= link_to "Contact Us", controller: "welcome", action: "contact_us" %></li>
+        <li><a href="/News/">News</a></li>
+        <li><a href="/Factory/">Factory</a></li>
+        <li><a href="/welcome/case">Case</a></li>
+        <li><a href="/Contact-Us/">Contact Us</a></li>
       </ul>
     </nav>
 
@@ -107,21 +107,21 @@
         <li data-background="/public/images/banner1.jpg" alt="Products" class="first-flick" style="background-image: url('/public/images/banner1.jpg');">
           <div class="flick-inner">
             <div class="flick-content">
-              <%= link_to "Products", controller: "welcome", action: "products" %>
+              <a href="/Products/"></a>
             </div>
           </div>
         </li>
         <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
           <div class="flick-inner">
             <div class="flick-content">
-              <%= link_to "Products", controller: "welcome", action: "products" %>
+              <a href="/Products/"></a>
             </div>
           </div>
         </li>
         <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
           <div class="flick-inner">
             <div class="flick-content">
-              <%= link_to "Products", controller: "welcome", action: "products" %>
+              <a href="/Products/"></a>
             </div>
           </div>
         </li>
@@ -222,12 +222,20 @@
       <div class="comtit">COMPANY</div>
       <div class="fl linkjie">
         <div class="lian">
-          <%= link_to image_tag("tu1.jpg", alt: "Contact Us"), controller: "welcome", action: "contact_us" %>
-          <%= link_to image_tag("tu2.jpg", alt: "Factory"), controller: "welcome", action: "factory" %>
-          <%= link_to image_tag("tu3.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+          <a href="/Contact-Us/">
+            <%= image_tag("tu1.jpg", alt: "Contact Us") %>
+          </a>
+          <a href="/Factory/">
+            <%= image_tag("tu2.jpg", alt: "Factory") %>
+          </a>
+          <a href="/Case/">
+            <%= image_tag("tu3.jpg", alt: "Case") %>
+          </a>
         </div>
         <div class="more">
-          <%= link_to image_tag("more.jpg", alt: "Company"), controller: "welcome", action: "company" %>
+          <a href="/Company/">
+            <%= image_tag("more.jpg", alt: "Company") %>
+          </a>
         </div>
       </div>
       <div class="fl shipin">
@@ -295,36 +303,36 @@
             <div class="fl catit">CASE</div>
             <div class="fr cacon">The indicators by CRCC are superior to similar products. The large reduction of the failure rate, through the multi-stage vibration reduction design, improve the operator operating environment, welcomed by front-line workers, has been widely used in the Beijing Municipal Bureau of various work</div>
           </li>
-          <li>
-            <%= link_to image_tag("c1.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c2.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c3.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c4.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c5.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c6.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c7.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c8.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c9.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c10.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
+          <li><a href="/Case/">
+            <%= image_tag("c1.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c2.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c3.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c4.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c5.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c6.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c7.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c8.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c9.jpg", alt: "Case") %>
+          </a></li>
+          <li><a href="/Case/">
+            <%= image_tag("c10.jpg", alt: "Case") %>
+          </a></li>
         </ul>
       </div>
     </div>
@@ -395,12 +403,13 @@
       <div class="zt ov">
         <ul class="fl daohang">
           <li><a href="/"><i class="fa fa-angle-right"></i>Home</a></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Company'), controller: "welcome", action: "company" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Products'), controller: "welcome", action: "products" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>News'), controller: "welcome", action: "news" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Factory'), controller: "welcome", action: "factory" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Case'), controller: "welcome", action: "case" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Contact-Us'), controller: "welcome", action: "contact_us" %></li>
+          <li><a href="/Company/"><i class="fa fa-angle-right"></i>Company</a></li>
+          <li><a href="/Products/"><i class="fa fa-angle-right"></i>Products</a></li>
+          <li><a href="/News/"><i class="fa fa-angle-right"></i>News</a></li>
+          <li><a href="/Factory/"><i class="fa fa-angle-right"></i>Factory</a></li>
+          <li><%= link_to '<i class="fa fa-angle-right"></i>Case', controller: "welcome", action: "case" %></li>
+          <li><a href="/case"><i class="fa fa-angle-right"></i>Case</a></li>
+          <li><a href="/Contact-Us/"><i class="fa fa-angle-right"></i>Contact Us</a></li>
         </ul>
         <ul class="fl daohang">
           <li><a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html"><i class="fa fa-angle-right"></i>Portable Tamping Pickaxe</a></li>
