@@ -1,453 +1,289 @@
-<html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51905047-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<div class="flicker-example flickerplate animate-transition-slide flicker-theme-light" data-block-text="false" data-flick-position="1">
+  <div class="dot-navigation center">
+    <ul>
+      <li>
+        <div class="dot"></div>
+      </li>
+      <li>
+        <div class="dot active"></div>
+      </li>
+      <li>
+        <div class="dot"></div>
+      </li>
+    </ul>
+  </div>
+  <div class="arrow-navigation left">
+    <div class="arrow"></div>
+  </div>
+  <div class="arrow-navigation right">
+    <div class="arrow"></div>
+  </div>
+  <ul class="flicks" style="left:-100%;">
+    <li data-background="/public/images/banner1.jpg" alt="Products" class="first-flick" style="background-image: url('/public/images/banner1.jpg');">
+      <div class="flick-inner">
+        <div class="flick-content">
+          <%= link_to "Products", controller: "welcome", action: "products" %>
+        </div>
+      </div>
+    </li>
+    <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
+      <div class="flick-inner">
+        <div class="flick-content">
+          <%= link_to "Products", controller: "welcome", action: "products" %>
+        </div>
+      </div>
+    </li>
+    <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
+      <div class="flick-inner">
+        <div class="flick-content">
+          <%= link_to "Products", controller: "welcome", action: "products" %>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-      gtag('config', 'UA-51905047-1');
-    </script>
-
-    <title>portable tamping pickaxe machine, Railway line tamping equipment production | Tiekang Machinery</title>
-    <meta name="keywords" content="portable tamping pickaxe machine, Railway line tamping equipment production, tamping machine">
-    <meta name="description" content="we are Portable Tamping Pickaxe Machine manufacturers in china,if you need portable tamping pickaxe machine,pls contact us.">
-    <meta http-equiv="expires" content="12/23/2018 9:57:29 PM">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" type="text/css" href="/public/stylesheet/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/public/stylesheet/tiekang.css">
-    <link rel="stylesheet" type="text/css" href="/public/stylesheet/style.css">
-  </head>
-  <body style="">
-    <div class="zt ov topp">
-      <div class="fl logo">
-        <a href="/">
-          <%= image_tag("logo.jpg", alt: "Hebei Tiekang Machinery Equipment Co., Ltd.", class: "fl", style: "height: 90; width: 90px") %>
-          <span class="fl">Hebei Tiekang Machinery & Equipment Co., Ltd.</span>
-        </a>
-      </div>
-      <div class="fr shequ">
-        <a class="md-trigger" data-modal="modal-10" href="#">
-          <%= image_tag("sou.jpg") %>
-        </a>
-        <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" rel="nofollow"></a>
-        <a href="https://plus.google.com" class="fa fa-google-plus" target="_blank" rel="nofollow"></a>
-        <a href="https://www.pinterest.com" class="fa fa-pinterest-p" target="_blank" rel="nofollow"></a>
-        <a href="https://twitter.com" class="fa fa-twitter" target="_blank" rel="nofollow"></a>
-      </div>
-      <div class="md-modal md-effect-10" id="modal-10">
-        <div class="md-content">
-          <h3>Search Product</h3>
-          <div>
-            <p>Search here for what you are looking for:</p>
-            <ul>
-              <li>
-                <form id="form0">
-                  <input type="text" class="messtex" placeholder="Search..." name="keys" id="keys">
-                  <input type="hidden" name="path0" id="path0" value="/">
-                  <input type="button" value="GO" class="gogo" onclick="searchsubmit();">
-                </form>
-              </li>
-              <li>
-                <strong>Hot:</strong>
-                <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
-              </li>
-            </ul>
-            <button class="md-close">Close me!</button>
-          </div>
-        </div>
-      </div>
-      <div class="md-overlay"></div>
-    </div>
-    <nav>
-      <div class="caidan">
-        <span class="fa fa-bars"></span>
-      </div>
-      <ul class="zt">
-        <li class="active"><a href="/">Home</a></li>
-        <li><%= link_to "Company", controller: "welcome", action: "company" %></li>
-        <li>
-          <%= link_to "Products", controller: "welcome", action: "products" %><i class="fa fa-angle-down"></i>
-          <div class="xla">
-            <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
-          </div>
-        </li>
-        <li><%= link_to "News", controller: "welcome", action: "news" %></li>
-        <li><%= link_to "Factory", controller: "welcome", action: "factory" %></li>
-        <li><%= link_to "Case", controller: "welcome", action: "case" %></li>
-        <li><%= link_to "Contact Us", controller: "welcome", action: "contact_us" %></li>
-      </ul>
-    </nav>
-
-    <div class="flicker-example flickerplate animate-transition-slide flicker-theme-light" data-block-text="false" data-flick-position="1">
-      <div class="dot-navigation center">
-        <ul>
-          <li>
-            <div class="dot"></div>
-          </li>
-          <li>
-            <div class="dot active"></div>
-          </li>
-          <li>
-            <div class="dot"></div>
-          </li>
-        </ul>
-      </div>
-      <div class="arrow-navigation left">
-        <div class="arrow"></div>
-      </div>
-      <div class="arrow-navigation right">
-        <div class="arrow"></div>
-      </div>
-      <ul class="flicks" style="left:-100%;">
-        <li data-background="/public/images/banner1.jpg" alt="Products" class="first-flick" style="background-image: url('/public/images/banner1.jpg');">
-          <div class="flick-inner">
-            <div class="flick-content">
-              <%= link_to "Products", controller: "welcome", action: "products" %>
-            </div>
-          </div>
-        </li>
-        <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
-          <div class="flick-inner">
-            <div class="flick-content">
-              <%= link_to "Products", controller: "welcome", action: "products" %>
-            </div>
-          </div>
-        </li>
-        <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
-          <div class="flick-inner">
-            <div class="flick-content">
-              <%= link_to "Products", controller: "welcome", action: "products" %>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="zt ov product">
-      <div class="protit">PRODUCT CENTER</div>
-      <ul class="fenlei">
-        <li>
-          <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
-        </li>
-      </ul>
-      <div class="owl-carousel owl-theme" id="owl1" style="opacity: 1; display: block;">
-        <div class="owl-wrapper-outer">
-          <div class="owl-wrapper" style="width: 4000px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
-            <div class="owl-item" style="width: 400px;">
-              <div class="item">
-                <a href="/Calcium-Silicate-Board-Production-Line-Equipment/Calcium-Silicate-Board-Production-Line-Equipment-1.html" class="pre">
-                  <div class="img">
-                    <%= image_tag("prod_line.jpg", alt: "Calcium Silicate Board Production Line Equipment") %>
-                  </div>
-                  <div class="abst">
-                    <h3>Portable Tamping Pickaxe Production Line Equipment</h3>
-                    <span class="spannr">The production line of high-strength, lightweight compartments.</span>
-                    <i><span>+</span></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="owl-item" style="width: 400px;">
-              <div class="item">
-                <a href="/Light-Mineral-Wool-Board-Production-Line-Equipment/Light-Mineral-Wool-Board-Production-Line-Equipment-2.html" class="pre">
-                  <div class="img">
-                    <%= image_tag("assemble.jpg", alt: "Light Mineral Wool Board Production Line Equipment") %>
-                  </div>
-                  <div class="abst">
-                    <h3>Portable Tamping Pickaxe Assemble Line Equipment</h3>
-                    <span class="spannr">Assembling on precise instruments to ensure product quality</span>
-                    <i><span>+</span></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="owl-item" style="width: 400px;">
-              <div class="item">
-                <a href="/Gypsum-Powder-Production-Line-Equipment/Gypsum-Powder-Production-Line-Equipment-3.html" class="pre">
-                  <div class="img">
-                    <%= image_tag("qa.jpg", alt: "Gypsum Powder Production Line Equipment") %>
-                  </div>
-                  <div class="abst">
-                    <h3>Portable Tamping Pickaxe Product Experiment</h3>
-                    <span class="spannr">Performing quality assurance on a simulated real railway subgrade.</span>
-                     <i><span>+</span></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="owl-item" style="width: 400px;">
-              <div class="item">
-                <a href="/Paperless-Gypsum-Board-Production-Line-Equipment-fiberglass-Board-Equipment/Paperless-Gypsum-Board-Production-Line-Equipment-Fiberglass-Board-Equipment-4.html" class="pre">
-                  <div class="img">
-                    <%= image_tag("prod_line.jpg", alt: "Paperless Gypsum Board Production Line Equipment (Fiberglass Board Equipment)") %>
-                  </div>
-                  <div class="abst">
-                    <h3>Paperless Gypsum Board Production Line Equipment (Fiberglass Board Equipment)</h3>
-                    <span class="spannr">Paperless gypsum board is the fiber gypsum board (or gypsum fiberboard, paperless gypsum board) is a...</span>
-                    <i><span>+</span></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="owl-item" style="width: 400px;">
-              <div class="item">
-                <a href="/Gypsum-Board-Production-Line-Equipment/Gypsum-Board-Production-Line-Equipment-5.html" class="pre">
-                  <div class="img">
-                    <%= image_tag("assemble.jpg", alt: "Gypsum Board Production Line Equipment") %>
-                  </div>
-                  <div class="abst">
-                    <h3>Gypsum Board Production Line Equipment</h3>
-                    <span class="spannr">The progress of the project construction, project approval, process layout, civil construction, equi...</span>
-                    <i><span>+</span></i>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="owl-controls clickable">
-          <div class="owl-buttons">
-            <div class="owl-prev">&lt;</div>
-            <div class="owl-next">&gt;</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="zt compant">
-      <div class="comtit">COMPANY</div>
-      <div class="fl linkjie">
-        <div class="lian">
-          <%= link_to image_tag("tu1.jpg", alt: "Contact Us"), controller: "welcome", action: "contact_us" %>
-          <%= link_to image_tag("tu2.jpg", alt: "Factory"), controller: "welcome", action: "factory" %>
-          <%= link_to image_tag("tu3.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-        </div>
-        <div class="more">
-          <%= link_to image_tag("more.jpg", alt: "Company"), controller: "welcome", action: "company" %>
-        </div>
-      </div>
-      <div class="fl shipin">
-        <div id="a1" class="video_index" style="background-color: rgb(0, 0, 0); cursor: pointer;">
-          <!-- <video controls="controls" src="/test.mp4" id="ckplayer_a1" style="width:100%;height:100%" loop="loop" poster="<%= image_tag("shipin.jpg") %>" webkit-playsinline=""></video> -->
-        </div>
-        <script type="text/javascript" src="/public/javascripts/ckplayer.js"></script>
-
-        <script type="text/javascript">
-          // function flashChecker() {
-          //    var hasFlash = 0;
-          //    var flashVersion = 0;
-          //    var isIE = /*@cc_on!@*/0;
-          //    if (isIE) {
-          //        var swf = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
-          //        if (swf) {
-          //            hasFlash = 1;
-          //            VSwf = swf.GetVariable("$version");
-          //            flashVersion = parseInt(VSwf.split(" ")[1].split(",")[0]);
-          //        }
-          //     } else {
-          //        if (navigator.plugins && navigator.plugins.length > 0) {
-          //             var swf = navigator.plugins["Shockwave Flash"];
-          //             if (swf) {
-          //                hasFlash = 1;
-          //                var words = swf.description.split(" ");
-          //                for (var i = 0; i < words.length; ++i) { 
-          //                     if (isNaN(parseInt(words[i]))) continue;
-          //                     flashVersion = parseInt(words[i]);
-          //                }
-          //              }
-          //         }
-          //      }
-          // return { f: hasFlash, v: flashVersion };
-          // }
-          // var fls = flashChecker();
-          // if (fls.f){
-          //     var trues=false;
-          // }
-          // else{
-          //     var trues=true;
-          // }
-          // var flashvars={
-          //   f:'/test.mp4',
-          //   c:0,
-          //   e:1,
-          //   i:'/assets/images/shipin.jpg'
-          //   };
-          // var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-          // var video=['/test.mp4->video/mp4'];
-          // CKobject.embed('/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',trues,flashvars,video,params);
-        </script>
-      </div>
-      <div class="fr jianjie">
-        <h2>Hebei Tiekang Machinery Equipment Co., Ltd.</h2>
-        <span>
-
-        The portable tamping pickaxe designed and produced by HEBEI TieKang Machinery equipment CO., Ltd is applicable to the ballast tamping of mountain railways without power supply and inconvenient transportation, thus producing great economic benefits. The design of the rolling cone type vibrator is compact, light weighted and has reasonable structure, small size, and is convenient way up and down. It can effectively increase the exciting force, improve the continuous working hours, and make the maintenance more intuitive. Its ergonomic design improves the working environment, and make the operation more convenient.</span>
-      </div>
-    </div>
-    <div class="case">
-      <div class="zt caselist">
-        <ul>
-          <li>
-            <div class="fl catit">CASE</div>
-            <div class="fr cacon">The indicators by CRCC are superior to similar products. The large reduction of the failure rate, through the multi-stage vibration reduction design, improve the operator operating environment, welcomed by front-line workers, has been widely used in the Beijing Municipal Bureau of various work</div>
-          </li>
-          <li>
-            <%= link_to image_tag("c1.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c2.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c3.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c4.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c5.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c6.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c7.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c8.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c9.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-          <li>
-            <%= link_to image_tag("c10.jpg", alt: "Case"), controller: "welcome", action: "case" %>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="news">
-      <div class="zt ov">
-        <div class="fl newtit">
-          <div class="tith">Latest News Media Reports</div>
-          <span>NEWS CENTER</span>
-          <a href="/News/">view more &gt;&gt;</a>
-        </div>
-        <ul class="fr newlist">
-          <li>
-            <a href="/News/tiekang-advantage-88.html">
-              <span class="riqi">16</span>
-              <h2>Where We Are</h2>
+<div class="zt ov product">
+  <div class="protit">PRODUCT CENTER</div>
+  <ul class="fenlei">
+    <li>
+      <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
+    </li>
+  </ul>
+  <div class="owl-carousel owl-theme" id="owl1" style="opacity: 1; display: block;">
+    <div class="owl-wrapper-outer">
+      <div class="owl-wrapper" style="width: 4000px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+        <div class="owl-item" style="width: 400px;">
+          <div class="item">
+            <a href="/Calcium-Silicate-Board-Production-Line-Equipment/Calcium-Silicate-Board-Production-Line-Equipment-1.html" class="pre">
               <div class="img">
-                <%= image_tag("location.jpg", alt: "Tiekang location") %>
+                <%= image_tag("prod_line.jpg", alt: "Calcium Silicate Board Production Line Equipment") %>
               </div>
-              <span class="newcon">The company is located in the beautiful scenery of Shijiazhuang Xishan Forest Park, covering an area of more than 10 acres, with more than 40 employees, including senior Engineers account for 20% of the total, with strong scientific and technological research and development strength.</span>
-              <i><%= image_tag("jiantou.jpg") %></i>
+              <div class="abst">
+                <h3>Portable Tamping Pickaxe Production Line Equipment</h3>
+                <span class="spannr">The production line of high-strength, lightweight compartments.</span>
+                <i><span>+</span></i>
+              </div>
             </a>
-          </li>
-          <li>
-            <a href="/News/Wuxing-Calcium-Silicate-Board-Production-Line-87.html">
-              <span class="riqi">11</span>
-              <h2>Tiekang Portable Tamping Pickaxe Production Line</h2>
+          </div>
+        </div>
+        <div class="owl-item" style="width: 400px;">
+          <div class="item">
+            <a href="/Light-Mineral-Wool-Board-Production-Line-Equipment/Light-Mineral-Wool-Board-Production-Line-Equipment-2.html" class="pre">
               <div class="img">
-                <%= image_tag("demo.jpg", alt: "Wuxing Calcium Silicate Board Production Line") %>
+                <%= image_tag("assemble.jpg", alt: "Light Mineral Wool Board Production Line Equipment") %>
               </div>
-              <span class="newcon">Tiekang Portable Tamping Pickaxe Production Line Customer first, service first, please leave a message as soon as possible.</span>
-              <i><%= image_tag("jiantou.jpg") %></i>
+              <div class="abst">
+                <h3>Portable Tamping Pickaxe Assemble Line Equipment</h3>
+                <span class="spannr">Assembling on precise instruments to ensure product quality</span>
+                <i><span>+</span></i>
+              </div>
             </a>
-          </li>
-          <li>
-            <a href="/News/Where-to-Buy-Gypsum-Board-Production-Line-86.html">
-              <span class="riqi">09</span>
-              <h2>Tiekang Advantage</h2>
+          </div>
+        </div>
+        <div class="owl-item" style="width: 400px;">
+          <div class="item">
+            <a href="/Gypsum-Powder-Production-Line-Equipment/Gypsum-Powder-Production-Line-Equipment-3.html" class="pre">
               <div class="img">
-                <%= image_tag("office.jpg", alt: "Tiekang Advantage") %>
+                <%= image_tag("qa.jpg", alt: "Gypsum Powder Production Line Equipment") %>
               </div>
-              <span class="newcon">Since its establishment, the company has pointed to the weak link of maintenance equipment, and has developed a new type of internal combustion tamping for more than three years in response to the problem of high internal combustion and tamping failures in the market.</span>
-              <i><%= image_tag("jiantou.jpg") %></i>
+              <div class="abst">
+                <h3>Portable Tamping Pickaxe Product Experiment</h3>
+                <span class="spannr">Performing quality assurance on a simulated real railway subgrade.</span>
+                 <i><span>+</span></i>
+              </div>
             </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="messa">
-      <div class="zt ov">
-        <div class="fl mestit">
-        <h2>MESSAGE</h2>
-        <span>If you have any questions, please contact us</span> </div>
-        <div class="fr messanei">
-          <form id="form2">
-            <input type="tel" placeholder="Tel" name="ContactWay" id="ContactWay2" class="tt fl">
-            <input type="email" placeholder="Email" name="Email" id="Email2" class="tt fl">
-            <textarea class="neir" placeholder="Content" name="Content" id="Content2"></textarea>
-            <input type="hidden" name="Paths" id="Paths2" value="/">
-            <input type="hidden" name="Product" value="Hebei Tiekang Machinery Equipment Co., Ltd">
-            <input type="button" class="fl tijiao" id="foot_gbooks" value="SEND">
-          </form>
+          </div>
+        </div>
+        <div class="owl-item" style="width: 400px;">
+          <div class="item">
+            <a href="/Paperless-Gypsum-Board-Production-Line-Equipment-fiberglass-Board-Equipment/Paperless-Gypsum-Board-Production-Line-Equipment-Fiberglass-Board-Equipment-4.html" class="pre">
+              <div class="img">
+                <%= image_tag("prod_line.jpg", alt: "Paperless Gypsum Board Production Line Equipment (Fiberglass Board Equipment)") %>
+              </div>
+              <div class="abst">
+                <h3>Paperless Gypsum Board Production Line Equipment (Fiberglass Board Equipment)</h3>
+                <span class="spannr">Paperless gypsum board is the fiber gypsum board (or gypsum fiberboard, paperless gypsum board) is a...</span>
+                <i><span>+</span></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="owl-item" style="width: 400px;">
+          <div class="item">
+            <a href="/Gypsum-Board-Production-Line-Equipment/Gypsum-Board-Production-Line-Equipment-5.html" class="pre">
+              <div class="img">
+                <%= image_tag("assemble.jpg", alt: "Gypsum Board Production Line Equipment") %>
+              </div>
+              <div class="abst">
+                <h3>Gypsum Board Production Line Equipment</h3>
+                <span class="spannr">The progress of the project construction, project approval, process layout, civil construction, equi...</span>
+                <i><span>+</span></i>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-
-    <footer>
-      <div class="zt ov">
-        <ul class="fl daohang">
-          <li><a href="/"><i class="fa fa-angle-right"></i>Home</a></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Company'), controller: "welcome", action: "company" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Products'), controller: "welcome", action: "products" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>News'), controller: "welcome", action: "news" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Factory'), controller: "welcome", action: "factory" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Case'), controller: "welcome", action: "case" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Contact-Us'), controller: "welcome", action: "contact_us" %></li>
-        </ul>
-        <ul class="fl daohang">
-          <li><a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html"><i class="fa fa-angle-right"></i>Portable Tamping Pickaxe</a></li>
-        </ul>
-        <ul class="fr xinxi">
-          <li><i class="fa fa-angle-right"></i><span>Hebei Tiekang Machinery Equipment Co., Ltd.</span></li>
-          <li><i class="fa fa-angle-right"></i><span>Tel : +86-13933089519</span></li>
-          <li><i class="fa fa-angle-right"></i><span>Mobile : +86-13933089519</span></li>
-          <li><i class="fa fa-angle-right"></i><span>Contact : General Manager Yu</span></li>
-          <li><i class="fa fa-angle-right"></i><span>E-Mail : <a href="mailto:info@tiekangmachinery.com">info@tiekangmachinery.com</a></span></li>
-          <li><i class="fa fa-angle-right"></i><span>Addr : Luquan District, Shijiazhuang City, Hebei Prov, China</span></li>
-        </ul>
+    <div class="owl-controls clickable">
+      <div class="owl-buttons">
+        <div class="owl-prev">&lt;</div>
+        <div class="owl-next">&gt;</div>
       </div>
-    </footer>
-    <div class="dishequ">
-      <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
-      <a href="https://plus.google.com" class="fa fa-google-plus" target="_blank"></a>
-      <a href="https://www.pinterest.com" class="fa fa-pinterest-p" target="_blank"></a>
-      <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
     </div>
-    <script type="text/javascript" src="/public/javascripts/gbook.js"></script>
+  </div>
+</div>
+<div class="zt compant">
+  <div class="comtit">COMPANY</div>
+  <div class="fl linkjie">
+    <div class="lian">
+      <%= link_to image_tag("tu1.jpg", alt: "Contact Us"), controller: "welcome", action: "contact_us" %>
+      <%= link_to image_tag("tu2.jpg", alt: "Factory"), controller: "welcome", action: "factory" %>
+      <%= link_to image_tag("tu3.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+    </div>
+    <div class="more">
+      <%= link_to image_tag("more.jpg", alt: "Company"), controller: "welcome", action: "company" %>
+    </div>
+  </div>
+  <div class="fl shipin">
+    <div id="a1" class="video_index" style="background-color: rgb(0, 0, 0); cursor: pointer;">
+      <!-- <video controls="controls" src="/test.mp4" id="ckplayer_a1" style="width:100%;height:100%" loop="loop" poster="<%= image_tag("shipin.jpg") %>" webkit-playsinline=""></video> -->
+    </div>
+    <script type="text/javascript" src="/public/javascripts/ckplayer.js"></script>
+
     <script type="text/javascript">
-      // var polyfilter_scriptpath = '/public/javascripts/';
-      // $(".caidan").click(function() {
-      //   $("nav ul").slideToggle(500);
-      // })
-      // $("nav ul li i").click(function() {
-      //   $(this).siblings("div.xla").slideToggle(500);
-      // })
-      // $(function() {
-      //  $('#owl1').owlCarousel({
-      //   items: 3,
-      //   lazyLoad: true,
-      //   autoPlay: true,
-      //   navigation: true,
-      //   itemsDesktop: [1199, 3],
-      //   itemsDesktopSmall: [979, 2],
-      //   itemsTablet: [768, 2],
-      //   itemsMobile: [479, 1],
-      //   pagination: false,
-      //  });
-      // })
-      // $(document).ready(function() {
-      //  $('.flicker-example').flicker();
-      // });
+      // function flashChecker() {
+      //    var hasFlash = 0;
+      //    var flashVersion = 0;
+      //    var isIE = /*@cc_on!@*/0;
+      //    if (isIE) {
+      //        var swf = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+      //        if (swf) {
+      //            hasFlash = 1;
+      //            VSwf = swf.GetVariable("$version");
+      //            flashVersion = parseInt(VSwf.split(" ")[1].split(",")[0]);
+      //        }
+      //     } else {
+      //        if (navigator.plugins && navigator.plugins.length > 0) {
+      //             var swf = navigator.plugins["Shockwave Flash"];
+      //             if (swf) {
+      //                hasFlash = 1;
+      //                var words = swf.description.split(" ");
+      //                for (var i = 0; i < words.length; ++i) { 
+      //                     if (isNaN(parseInt(words[i]))) continue;
+      //                     flashVersion = parseInt(words[i]);
+      //                }
+      //              }
+      //         }
+      //      }
+      // return { f: hasFlash, v: flashVersion };
+      // }
+      // var fls = flashChecker();
+      // if (fls.f){
+      //     var trues=false;
+      // }
+      // else{
+      //     var trues=true;
+      // }
+      // var flashvars={
+      //   f:'/test.mp4',
+      //   c:0,
+      //   e:1,
+      //   i:'/assets/images/shipin.jpg'
+      //   };
+      // var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+      // var video=['/test.mp4->video/mp4'];
+      // CKobject.embed('/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',trues,flashvars,video,params);
     </script>
-    <script type="text/javascript" src="/public/javascripts/owl.carousel.js"></script>
-    <link rel="stylesheet" type="text/css" href="/public/stylesheet/flickerplate.css">
-  </body>
-</html>
+  </div>
+  <div class="fr jianjie">
+    <h2>Hebei Tiekang Machinery Equipment Co., Ltd.</h2>
+    <span>
+
+    Hebei Tiekang Machinery Equipment Co., Ltd. specializes in the development and production of portable tamping machines. Since the establishment of the company, we have great achievement relying on strong technical background resources in the professional field. The company has exclusive patent for products. After identification, the products are highly recognized by national railway experts. The portable tamping machine produced by the company solves the problems that haven’t been solved for many years in the field of railway maintenance. It also established many powerful business partnerships and provided reliable equipment for major railway bureaus around the world. Hebei Tiekang Machinery Equipment Co., Ltd. is committed to the growing Chinese market and overseas markets, providing high-quality products and after-sales service, and winning customer support and trust with strong strength, quality and professionalism. We welcome friends from all over the world to visit and negotiate.</span>
+  </div>
+</div>
+<div class="case">
+  <div class="zt caselist">
+    <ul>
+      <li>
+        <div class="fl catit">CASE</div>
+        <div class="fr cacon">The indicators by CRCC are superior to similar products. The large reduction of the failure rate, through the multi-stage vibration reduction design, improve the operator operating environment, welcomed by front-line workers, has been widely used in the Beijing Municipal Bureau of various work</div>
+      </li>
+      <li>
+        <%= link_to image_tag("c1.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c2.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c3.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c4.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c5.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c6.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c7.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c8.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c9.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+      <li>
+        <%= link_to image_tag("c10.jpg", alt: "Case"), controller: "welcome", action: "case" %>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="news">
+  <div class="zt ov">
+    <div class="fl newtit">
+      <div class="tith">Latest News Media Reports</div>
+      <span>NEWS CENTER</span>
+      <a href="/News/">view more &gt;&gt;</a>
+    </div>
+    <ul class="fr newlist">
+      <li>
+        <a href="/News/tiekang-advantage-88.html">
+          <span class="riqi">16</span>
+          <h2>Where We Are</h2>
+          <div class="img">
+            <%= image_tag("location.jpg", alt: "Tiekang location") %>
+          </div>
+          <span class="newcon">The company is located in the beautiful scenery of Shijiazhuang Xishan Forest Park, covering an area of more than 10 acres, with more than 40 employees, including senior Engineers account for 20% of the total, with strong scientific and technological research and development strength.</span>
+          <i><%= image_tag("jiantou.jpg") %></i>
+        </a>
+      </li>
+      <li>
+        <a href="/News/Wuxing-Calcium-Silicate-Board-Production-Line-87.html">
+          <span class="riqi">11</span>
+          <h2>Tiekang Portable Tamping Pickaxe Production Line</h2>
+          <div class="img">
+            <%= image_tag("demo.jpg", alt: "Wuxing Calcium Silicate Board Production Line") %>
+          </div>
+          <span class="newcon">Tiekang Portable Tamping Pickaxe Production Line Customer first, service first, please leave a message as soon as possible.</span>
+          <i><%= image_tag("jiantou.jpg") %></i>
+        </a>
+      </li>
+      <li>
+        <a href="/News/Where-to-Buy-Gypsum-Board-Production-Line-86.html">
+          <span class="riqi">09</span>
+          <h2>Tiekang Advantage</h2>
+          <div class="img">
+            <%= image_tag("office.jpg", alt: "Tiekang Advantage") %>
+          </div>
+          <span class="newcon">Since its establishment, the company has pointed to the weak link of maintenance equipment, and has developed a new type of internal combustion tamping for more than three years in response to the problem of high internal combustion and tamping failures in the market.</span>
+          <i><%= image_tag("jiantou.jpg") %></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
