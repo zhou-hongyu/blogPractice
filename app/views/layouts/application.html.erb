@@ -99,14 +99,14 @@
         <h2>MESSAGE</h2>
         <span>If you have any questions, please contact us</span> </div>
         <div class="fr messanei">
-          <form id="form2">
-            <input type="tel" placeholder="Tel" name="ContactWay" id="ContactWay2" class="tt fl">
+          <%= form_tag({controller: "welcome", action: "message"}, method: "get", id: "form2") do %>
+            <input type="tel" placeholder="Tel" name="Tel" id="ContactWay2" class="tt fl">
             <input type="email" placeholder="Email" name="Email" id="Email2" class="tt fl">
             <textarea class="neir" placeholder="Content" name="Content" id="Content2"></textarea>
             <input type="hidden" name="Paths" id="Paths2" value="/">
             <input type="hidden" name="Product" value="Hebei Tiekang Machinery Equipment Co., Ltd">
-            <input type="button" class="fl tijiao" id="foot_gbooks" value="SEND">
-          </form>
+            <input type="submit" class="fl tijiao" id="" value="SEND">
+          <% end %>
         </div>
       </div>
     </div>

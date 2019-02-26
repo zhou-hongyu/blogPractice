@@ -29,7 +29,7 @@ $(function (){
    var reyx1= /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
    var Contact1=jQuery("#Contact1").val();
    var ContactWay1=jQuery("#ContactWay1").val();
-  var Email1=jQuery("#Email1").val();
+   var Email1=jQuery("#Email1").val();
    var Content1=jQuery("#Content1").val();
    var Paths1=jQuery("#Paths1").val();
    if (Contact1==""){

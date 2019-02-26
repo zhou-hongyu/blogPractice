@@ -70,7 +70,7 @@ background-image: linear-gradient(left,rgba(255,255,255,0) 0%,rgba(236,240,244,1
 
 .owl-carousel{ margin-top: 15px;}
 .owl-carousel .owl-wrapper-outer{ overflow: hidden;  position: relative;  width: 100%;}
-.owl-buttons{ width:520px; height:27px; background: asset-data-url("butbj.jpg") 50% 50% no-repeat; margin: 0 auto;  }
+.owl-buttons{ width:520px; height:27px; background: url(/public/images/butbj.jpg) 50% 50% no-repeat; margin: 0 auto;  }
 .pro_list .owl-theme .owl-controls{ margin:0px;}
 .owl-theme .owl-controls .owl-prev,.owl-theme .owl-controls .owl-next{ position: relative; cursor: pointer; font-size: 26px; color: #a0a0a0; text-indent: 9999px;}
 .owl-theme .owl-controls .owl-prev:hover,.owl-theme .owl-controls .owl-next:hover{ color: #801704;}
@@ -128,7 +128,7 @@ background-image: linear-gradient(left,rgba(255,255,255,0) 0%,rgba(236,240,244,1
 .tith{ margin-top: 150px; font-size: 30px; margin-bottom: 50px;}
 .newtit a{ display: block; width: 150px; margin-top: 10px; background: #244172; color: #fff; text-align:  center; line-height: 32px; text-transform: uppercase;}
 
-.messa{ background: url(/public/images/mesbj.png ) 50% 0 no-repeat; padding: 40px 0; margin-top: -9px; position: relative; z-index: 999;}
+.messa{ background: url(/public/images/mesbj.png ) 50% 0 no-repeat; padding: 40px 0; margin-top: 50px; position: relative; z-index: 999;}
 .mestit{ width: 32%; text-align: right; color: #fff;}
 .mestit h2{ font-family: impact; font-size: 35px; font-weight: normal; margin-bottom: 5px;}
 .mestit span{ text-transform: uppercase;}
@@ -177,12 +177,12 @@ footer{ background: url(/public/images/dibj.jpg ) 50% 0 no-repeat; padding:50px 
 .conts{ width: 45%; margin-top: 40px; }
 .conts h2{  font-family: impact; font-weight: normal; font-size: 25px;}
 .conts li{ padding: 10px 50px; margin: 26px 0; font-size: 16px; }
-.conts li:nth-child(1){background: url(../images/lx1.jpg) 0 50% no-repeat;}
-.conts li:nth-child(2){ background: url(../images/lx2.jpg) 0 50%  no-repeat;}
-.conts li:nth-child(3){ background: url(../images/lx6.jpg) 0 50%  no-repeat;}
-.conts li:nth-child(4){ background: url(../images/lx3.jpg) 0 50%  no-repeat;}
-.conts li:nth-child(5){ background: url(../images/lx4.jpg) 0 50%  no-repeat;}
-.conts li:nth-child(6){ background: url(../images/lx5.jpg) 0 50%  no-repeat;}
+.conts li:nth-child(1){background: url(/public/images/lx1.jpg) 0 50% no-repeat;}
+.conts li:nth-child(2){ background: url(/public/images/lx2.jpg) 0 50%  no-repeat;}
+.conts li:nth-child(3){ background: url(/public/images/lx6.jpg) 0 50%  no-repeat;}
+.conts li:nth-child(4){ background: url(/public/images/lx3.jpg) 0 50%  no-repeat;}
+.conts li:nth-child(5){ background: url(/public/images/lx4.jpg) 0 50%  no-repeat;}
+.conts li:nth-child(6){ background: url(/public/images/lx5.jpg) 0 50%  no-repeat;}
 .mess{ width: 45%; margin-top: 50px; margin-left: 20px;}
 .textname{background:#f3f3f3;line-height: 36px; border-top: 2px solid #c4cfe3; width: 98%; margin-bottom: 20px; padding-left: 10px;}
 .area{  border-top: 2px solid #c4cfe3;background:#f3f3f3;width: 98%; font-family: verdana;padding-left: 10px; height: 90px;}
