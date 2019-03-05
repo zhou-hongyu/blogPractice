@@ -1,6 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    UserMailer.with(aa: "aa").welcome_email.deliver_now
   end
 
   def company
@@ -22,9 +21,10 @@ class WelcomeController < ApplicationController
   end
 
   def message
-    @ok = params[:Tel]
+    @tel = params[:Tel]
     @email = params[:Email]
     @content = params[:Content]
+    UserMailer.with(tel: @tel, email: @email, content: @content).welcome_email.deliver_now
   end
 
 end

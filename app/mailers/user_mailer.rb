@@ -3,6 +3,9 @@ class UserMailer < ApplicationMailer
 
   def welcome_email
     @url = "www.tiekangmachinery.com"
-    mail(to: "zhou.hongyu8976@gmail.com", subject: 'Welcome to My Awesome Site')
+    @tel = params[:tel]
+    @email = params[:email]
+    @content = params[:content]
+    mail(to: "tiekangmachinery@gmail.com", subject: "New inquery!")
   end
 end
