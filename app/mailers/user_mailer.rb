@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default from: 'zhou.hongyu8976@gmail.com'
+  default from: 'no-reply@tiekangmachinery.com'
 
   def welcome_email
     @url = "www.tiekangmachinery.com"
