@@ -8,15 +8,16 @@
 <div class="zt abnei ov">
  <h1 class="protit">Contact Us</h1>
  <div class="fl mess">
-  <form id="form1">
-   <input type="text" placeholder="Name" name="Contact" id="Contact1" class="textname">
-   <input type="tel" placeholder="Tel" name="ContactWay" id="ContactWay1" class="textname">
+  <%= form_tag({controller: "welcome", action: "message"}, method: "get", id: "form1") do %>
+
+   <input type="text" placeholder="Name" name="Name" id="Contact1" class="textname">
+   <input type="tel" placeholder="Tel" name="Tel" id="ContactWay1" class="textname">
    <input type="email" placeholder="Email" name="Email" id="Email1" class="textname">
    <textarea class="area" placeholder="Content" name="Content" id="Content1"></textarea>
    <input type="hidden" name="Paths" id="Paths1" value="/">
    <input type="hidden" name="Product" value="Contact Us">
-   <input type="button" class="butt" id="gbooks" value="MESSAGE">
-  </form>
+   <input type="submit" class="butt" id="" value="MESSAGE">
+  <% end %>
  </div>
  <div class="fr conts">
   <h2>Hebei Tiekang Machinery Equipment Co., Ltd.</h2>

@@ -3,6 +3,7 @@ class UserMailer < ApplicationMailer
 
   def welcome_email
     @url = "www.tiekangmachinery.com"
+    @name = params[:name]
     @tel = params[:tel]
     @email = params[:email]
     @content = params[:content]

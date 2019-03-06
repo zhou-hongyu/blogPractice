@@ -21,10 +21,11 @@ class WelcomeController < ApplicationController
   end
 
   def message
+    @name = params[:Name]
     @tel = params[:Tel]
     @email = params[:Email]
     @content = params[:Content]
-    UserMailer.with(tel: @tel, email: @email, content: @content).welcome_email.deliver_now
+    UserMailer.with(name: @name, tel: @tel, email: @email, content: @content).welcome_email.deliver_now
   end
 
 end
