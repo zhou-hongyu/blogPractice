@@ -81,7 +81,7 @@
         <li>
           <%= link_to "Products", controller: "welcome", action: "products" %><i class="fa fa-angle-down"></i>
           <div class="xla">
-            <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
+            <%= link_to "Portable Tamping Pickaxe", controller: "welcome", action: "products" %>
           </div>
         </li>
         <li><%= link_to "Factory", controller: "welcome", action: "factory" %></li>
@@ -121,7 +121,9 @@
           <li><%= link_to raw('<i class="fa fa-angle-right"></i>Contact-Us'), controller: "welcome", action: "contact_us" %></li>
         </ul>
         <ul class="fl daohang">
-          <li><a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html"><i class="fa fa-angle-right"></i>Portable Tamping Pickaxe</a></li>
+          <li>
+            <%= link_to raw('<i class="fa fa-angle-right"></i>Portable Tamping Pickaxe'), controller: "welcome", action: "products" %>
+          </li>
         </ul>
         <ul class="fr xinxi">
           <li><i class="fa fa-angle-right"></i><span>Hebei Tiekang Machinery Equipment Co., Ltd.</span></li>
