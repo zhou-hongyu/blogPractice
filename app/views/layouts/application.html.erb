@@ -17,6 +17,7 @@
 
       gtag('config', 'UA-51905047-1');
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>portable tamping pickaxe machine, Railway line tamping equipment production | Tiekang Machinery</title>
     <meta name="keywords" content="portable tamping pickaxe machine, Railway line tamping equipment production, tamping machine">
@@ -115,7 +116,6 @@
           <li><a href="/"><i class="fa fa-angle-right"></i>Home</a></li>
           <li><%= link_to raw('<i class="fa fa-angle-right"></i>Company'), controller: "welcome", action: "company" %></li>
           <li><%= link_to raw('<i class="fa fa-angle-right"></i>Products'), controller: "welcome", action: "products" %></li>
-          <li><%= link_to raw('<i class="fa fa-angle-right"></i>News'), controller: "welcome", action: "news" %></li>
           <li><%= link_to raw('<i class="fa fa-angle-right"></i>Factory'), controller: "welcome", action: "factory" %></li>
           <li><%= link_to raw('<i class="fa fa-angle-right"></i>Case'), controller: "welcome", action: "case" %></li>
           <li><%= link_to raw('<i class="fa fa-angle-right"></i>Contact-Us'), controller: "welcome", action: "contact_us" %></li>
@@ -169,6 +169,13 @@
       // });
     </script>
     <script type="text/javascript" src="/public/javascripts/owl.carousel.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".item").click(function(event) {
+          window.location = window.location.href + "products";
+        });
+      });
+    </script>
     <link rel="stylesheet" type="text/css" href="/public/stylesheet/flickerplate.css">
   </body>
 </html>
