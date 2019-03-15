@@ -28,4 +28,9 @@ class WelcomeController < ApplicationController
     UserMailer.with(name: @name, tel: @tel, email: @email, content: @content).welcome_email.deliver_now
   end
 
+  def robots
+    robots = File.read(Rails.root + "config/robots.#{Rails.env}.txt")
+    render :text => robots, :layout => false, :content_type => "text/plain"
+  end
+
 end
