@@ -8,6 +8,9 @@ class WelcomeController < ApplicationController
   def products
   end
 
+  def portable_tamping_pickaxe
+  end
+
   def news
   end
 
