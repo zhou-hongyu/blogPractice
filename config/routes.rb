@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/products', to: 'welcome#products', as: 'products'
   get '/Portable-Tamping-Pickaxe', to: 'welcome#portable_tamping_pickaxe', as: 'Portable_Tamping_Pickaxe'
   get '/factory', to: 'welcome#factory', as: 'factory'
+  get '/news', to: 'welcome#news', as: 'news'
   get '/case', to: 'welcome#case', as: 'case'
   get '/contact_us', to: 'welcome#contact_us', as: 'contact_us'
   get '/company', to: 'welcome#company', as: 'company'
