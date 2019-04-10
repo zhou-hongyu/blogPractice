@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   get '/contact_us', to: 'welcome#contact_us', as: 'contact_us'
   get '/company', to: 'welcome#company', as: 'company'
   get '/robots.txt', to: 'welcome#robots'
+  get '/news/20190410-1', to: 'welcome#news_20190410_1'
+  get '/news/20190412-1', to: 'welcome#news_20190412_1'
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'welcome#index'
