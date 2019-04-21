@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get '/robots.txt', to: 'welcome#robots'
   get '/news/20190410-1', to: 'welcome#news_20190410_1'
   get '/news/20190412-1', to: 'welcome#news_20190412_1'
+  get '/news/20190416', to: 'welcome#news_20190416'
+  get '/news/20190418', to: 'welcome#news_20190418'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
