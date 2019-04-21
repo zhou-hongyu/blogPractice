@@ -92,7 +92,50 @@
       </ul>
     </nav>
 
-    <div class="neiban" style="background: url(/public/images/banner1.jpg ) 50% 50% no-repeat;"></div>
+    <div class="flicker-example flickerplate animate-transition-slide flicker-theme-light" data-block-text="false" data-flick-position="1">
+      <div class="dot-navigation center">
+        <ul>
+          <li>
+            <div class="dot"></div>
+          </li>
+          <li>
+            <div class="dot active"></div>
+          </li>
+          <li>
+            <div class="dot"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="arrow-navigation left">
+        <div class="arrow"></div>
+      </div>
+      <div class="arrow-navigation right">
+        <div class="arrow"></div>
+      </div>
+      <ul class="flicks" style="left:-100%;">
+        <li data-background="/public/images/banner1.jpg" alt="Products" class="first-flick" style="background-image: url('/public/images/banner1.jpg');">
+          <div class="flick-inner">
+            <div class="flick-content">
+              <%= link_to "Products", controller: "welcome", action: "products" %>
+            </div>
+          </div>
+        </li>
+        <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
+          <div class="flick-inner">
+            <div class="flick-content">
+            </div>
+          </div>
+        </li>
+        <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
+          <div class="flick-inner">
+            <div class="flick-content">
+              <%= link_to "Products", controller: "welcome", action: "products" %>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
     <div class="mbx">
       <div class="zt">
         <i class="fa fa-home"></i>
