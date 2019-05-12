@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get '/news/20190418', to: 'welcome#news_20190418'
   get '/news/20190423', to: 'welcome#news_20190423'
   get '/news/20190426', to: 'welcome#news_20190426'
+  get '/news/20190507', to: 'welcome#news_20190507'
+  get '/news/20190510', to: 'welcome#news_20190510'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
