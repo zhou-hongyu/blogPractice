@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tiekang Machinery</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131753800-19"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131753800-19');
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Portable Tamping Rammer Machine Supplier ,Portable Tamping Pickaxe Supplier | Tiekang Machinery</title>
+    <meta name="keywords" content="Portable Tamping Rammer Machine Supplier ,Portable Tamping Pickaxe Supplier | Tiekang Machinery">
+    <meta name="description" content="Hebei Tiekang Machinery Equipment Co., Ltd. established in 2015, specializes in the development and production of portable tamping machines.">
+    <meta http-equiv="expires" content="12/23/2018 9:57:29 PM">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="/public/stylesheet/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/public/stylesheet/tiekang.css">
+    <link rel="stylesheet" type="text/css" href="/public/stylesheet/style.css">
+    <link rel="stylesheet" type="text/css" href="/public/stylesheet/slider-pro.css">
+
+  </head>
+
+  <body>
+    <div class="zt ov topp">
+      <div class="fl logo">
+        <a href="/">
+          <%= image_tag("logo.jpg", alt: "Hebei Tiekang Machinery Equipment Co., Ltd.", class: "fl", style: "height: 90; width: 90px") %>
+          <span class="fl">Hebei Tiekang Machinery & Equipment Co., Ltd.</span>
+        </a>
+      </div>
+      <div class="fr shequ">
+        <a class="md-trigger" data-modal="modal-10" href="#">
+          <%= image_tag("sou.jpg") %>
+        </a>
+        <a href="https://www.facebook.com/HEBEI-TieKang-Machinery-equipment-CO-Ltd-544725522716744" class="fa fa-facebook" target="_blank" rel="nofollow"></a>
+        <a href="https://www.linkedin.com/company/19140055/admin/" class="fa fa-linkedin" target="_blank" rel="nofollow"></a>
+        <a href="https://twitter.com/PingYu33014387" class="fa fa-twitter" target="_blank" rel="nofollow"></a>
+      </div>
+      <div class="md-modal md-effect-10" id="modal-10">
+        <div class="md-content">
+          <h3>Search Product</h3>
+          <div>
+            <p>Search here for what you are looking for:</p>
+            <ul>
+              <li>
+                <form id="form0">
+                  <input type="text" class="messtex" placeholder="Search..." name="keys" id="keys">
+                  <input type="hidden" name="path0" id="path0" value="/">
+                  <input type="button" value="GO" class="gogo" onclick="searchsubmit();">
+                </form>
+              </li>
+              <li>
+                <strong>Hot:</strong>
+                <a href="/Portable-Tamping-Pickaxe/Portable-Tamping-Pickaxe-1.html">Portable Tamping Pickaxe</a>
+              </li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="md-overlay"></div>
+    </div>
+    <nav>
+      <div class="caidan">
+        <span class="fa fa-bars"></span>
+      </div>
+      <ul class="zt">
+        <li class="active"><a href="/">Home</a></li>
+        <li><%= link_to "Company", controller: "welcome", action: "company" %></li>
+        <li>
+          <%= link_to "Products", controller: "welcome", action: "products" %><i class="fa fa-angle-down"></i>
+          <div class="xla">
+            <%= link_to "Portable Tamping Pickaxe", controller: "welcome", action: "portable_tamping_pickaxe" %>
+          </div>
+        </li>
+        <li><%= link_to "Factory", controller: "welcome", action: "factory" %></li>
+        <li><%= link_to "News", controller: "welcome", action: "news" %></li>
+        <li><%= link_to "Certificate", controller: "welcome", action: "case" %></li>
+        <li><%= link_to "Contact Us", controller: "welcome", action: "contact_us" %></li>
+      </ul>
+    </nav>
+
+    <div class="flicker-example flickerplate animate-transition-slide flicker-theme-light" data-block-text="false" data-flick-position="1">
+      <div class="dot-navigation center">
+        <ul>
+          <li>
+            <div class="dot"></div>
+          </li>
+          <li>
+            <div class="dot active"></div>
+          </li>
+          <li>
+            <div class="dot"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="arrow-navigation left">
+        <div class="arrow"></div>
+      </div>
+      <div class="arrow-navigation right">
+        <div class="arrow"></div>
+      </div>
+      <ul class="flicks" style="left:-100%;">
+        <li data-background="/public/images/banner1.jpg" alt="Products" class="first-flick" style="background-image: url('/public/images/banner1.jpg');">
+          <div class="flick-inner">
+            <div class="flick-content">
+              <%= link_to "Products", controller: "welcome", action: "products" %>
+            </div>
+          </div>
+        </li>
+        <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
+          <div class="flick-inner">
+            <div class="flick-content">
+            </div>
+          </div>
+        </li>
+        <li data-background="/public/images/banner2.jpg" alt="Products" style="background-image: url('/public/images/banner2.jpg');">
+          <div class="flick-inner">
+            <div class="flick-content">
+              <%= link_to "Products", controller: "welcome", action: "products" %>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mbx">
+      <div class="zt">
+        <i class="fa fa-home"></i>
+        <a href="/">Home</a> - <%= link_to "News", controller: "welcome", action: "news" %>
+      </div>
+    </div>
+    <div class="zt abnei">
+     <h1>Good quality Portable Tamping Pickaxe</h1>
+     <div class="xiangq">
+      <p>
+        <a href="/Portable-Tamping-Pickaxe"><b>Portable Tamping Pickaxe</b></a> a small road suitable for railway track maintenance machinery, mainly used for ballast track tamping homework. Its novel design, compact structure, is a kind of way rapidly up and down, stamping equipment, convenient operation is particularly suited to switch tamping homework.
+      </p>
+      <p>
+        This machine is mainly composed of gasoline engine, the vibration damping device, a transmission axis, a vibration body and hand, constitute a complete independence of handheld tamping machine, neither the long cables, no heavy soft shaft,compact and reasonable structure, easy to use.
+      </p>
+      <div style="">
+        <%= image_tag("20190416.jpg", alt: "", style: ";display: block;margin:auto;") %>
+      </div>
+      <p>
+        Best stainless
+      </p>
+      <p>
+        Best stainless steel wing nut anchor bolt for construction fastener bags+cartons+pallets according to customer ' s requirement,Best stainless steel wing nut anchor bolt for construction fastener bags+cartons+pallets according to customer ' s requirement.
+      </p>
+      <p>
+        Portable Tamping Pickaxe Details:
+      </p>
+      <p>
+        1.petrol engine power:1.47kW
+      </p>
+      <p>
+        2.vibration force: ≥4.2kN
+      </p>
+      <p>
+        3.non-loaded amplitude:≥5mm
+      </p>
+      <p>
+        4.vibration frequency:120~140HZ
+      </p>
+      <p>
+        5.vibration bar diameter:52mm
+      </p>
+      <p>
+        6.eccentric block rotary speed:7000~8000r/min
+      </p>
+      <p>
+        7.machine weight:14.0kg
+      </p>
+      <p>
+        our company as a <a href="/"><b>Portable Tamping Rammer Machine Supplier</b></a>,if you need that pls contact us.
+      </p>
+     </div>
+    </div>
+
+    <div class="messa">
+      <div class="zt ov">
+        <div class="fl mestit">
+        <h2>MESSAGE</h2>
+        <span>If you have any questions, please contact us</span> </div>
+        <div class="fr messanei">
+          <%= form_tag({controller: "welcome", action: "message"}, method: "get", id: "form2") do %>
+            <input type="tel" placeholder="Tel" name="Tel" id="ContactWay2" class="tt fl">
+            <input type="email" placeholder="Email" name="Email" id="Email2" class="tt fl">
+            <textarea class="neir" placeholder="Content" name="Content" id="Content2"></textarea>
+            <input type="hidden" name="Paths" id="Paths2" value="/">
+            <input type="hidden" name="Product" value="Hebei Tiekang Machinery Equipment Co., Ltd">
+            <input type="submit" class="fl tijiao" id="" value="SEND">
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="zt ov">
+        <ul class="fl daohang">
+          <li><a href="/"><i class="fa fa-angle-right"></i>Home</a></li>
+          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Company'), controller: "welcome", action: "company" %></li>
+          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Products'), controller: "welcome", action: "products" %></li>
+          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Factory'), controller: "welcome", action: "factory" %></li>
+          <li><%= link_to raw('<i class="fa fa-angle-right"></i>News'), controller: "welcome", action: "news" %></li>
+          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Certificate'), controller: "welcome", action: "case" %></li>
+          <li><%= link_to raw('<i class="fa fa-angle-right"></i>Contact-Us'), controller: "welcome", action: "contact_us" %></li>
+        </ul>
+        <ul class="fl daohang">
+          <li>
+            <%= link_to raw('<i class="fa fa-angle-right"></i>Portable Tamping Pickaxe'), controller: "welcome", action: "portable_tamping_pickaxe" %>
+          </li>
+        </ul>
+        <ul class="fr xinxi">
+          <li><i class="fa fa-angle-right"></i><span>Hebei Tiekang Machinery Equipment Co., Ltd.</span></li>
+          <li><i class="fa fa-angle-right"></i><span>Tel : +86-13933089519</span></li>
+          <li><i class="fa fa-angle-right"></i><span>Mobile : +86-13933089519</span></li>
+          <li><i class="fa fa-angle-right"></i><span>Contact : General Manager Yu</span></li>
+          <li><i class="fa fa-angle-right"></i><span>E-Mail : <a href="mailto:info@tiekangmachinery.com">info@tiekangmachinery.com</a></span></li>
+          <li><i class="fa fa-angle-right"></i><span>Addr : Luquan District, Shijiazhuang City, Hebei Prov, China</span></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="dishequ">
+      <a href="https://www.facebook.com/HEBEI-TieKang-Machinery-equipment-CO-Ltd-544725522716744" class="fa fa-facebook" target="_blank" rel="nofollow"></a>
+      <a href="https://www.linkedin.com/company/19140055/admin/" class="fa fa-linkedin" target="_blank" rel="nofollow"></a>
+      <a href="https://twitter.com/PingYu33014387" class="fa fa-twitter" target="_blank" rel="nofollow"></a>
+      <h2>protable temping pickaxe machine,Portable tamping machine Production Line Equipment manufacturers</h2>
+    </div>
+    <script type="text/javascript" src="/public/javascripts/gbook.js"></script>
+    <script type="text/javascript">
+      // var polyfilter_scriptpath = '/public/javascripts/';
+      // $(".caidan").click(function() {
+      //   $("nav ul").slideToggle(500);
+      // })
+      // $("nav ul li i").click(function() {
+      //   $(this).siblings("div.xla").slideToggle(500);
+      // })
+      // $(function() {
+      //  $('#owl1').owlCarousel({
+      //   items: 3,
+      //   lazyLoad: true,
+      //   autoPlay: true,
+      //   navigation: true,
+      //   itemsDesktop: [1199, 3],
+      //   itemsDesktopSmall: [979, 2],
+      //   itemsTablet: [768, 2],
+      //   itemsMobile: [479, 1],
+      //   pagination: false,
+      //  });
+      // })
+      // $(document).ready(function() {
+      //  $('.flicker-example').flicker();
+      // });
+    </script>
+    <script type="text/javascript" src="/public/javascripts/owl.carousel.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".item").click(function(event) {
+          window.location = window.location.href + "products";
+        });
+      });
+    </script>
+    <link rel="stylesheet" type="text/css" href="/public/stylesheet/flickerplate.css">
+  </body>
+</html>
