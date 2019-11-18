@@ -41,6 +41,8 @@ Rails.application.routes.draw do
   get '/news/20190808', to: 'welcome#news_20190808'
   get '/news/20191021', to: 'welcome#news_20191021'
   get '/news/20191026', to: 'welcome#news_20191026'
+  get '/news/20191111', to: 'welcome#news_20191111'
+  get '/news/20191115', to: 'welcome#news_20191115'
 
 
 
