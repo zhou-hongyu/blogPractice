@@ -43,8 +43,8 @@ Rails.application.routes.draw do
   get '/news/20191026', to: 'welcome#news_20191026'
   get '/news/20191111', to: 'welcome#news_20191111'
   get '/news/20191115', to: 'welcome#news_20191115'
-
-
+  get '/news/20191125', to: 'welcome#news_20191125'
+  get '/news/20191129', to: 'welcome#news_20191129'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
